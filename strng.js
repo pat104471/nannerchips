@@ -1,4 +1,26 @@
+function validateform(){
+    const username = document.getElementById('username').value
+    const password = document.getElementById('password').value
+    const confirmPassword = document.getElementById('confirmPassword').value
 
+    if (password != 'confrimPassword'){
+        alert("The password does not match");
+        return;
+    }
+
+alert("Registration successful");
+document.getElementById('registrationform').onsubmit();
+}
+;
+
+
+
+
+
+
+
+// take input
+let str1 = prompt('Enter a string: ');
 
 
 function isPalindrome(str) {
@@ -8,20 +30,27 @@ function isPalindrome(str) {
 
     let rev = str.split("").reverse().join("");
  
-    if (rev == str1) {
-        return true
-    }
-    return false
+
+
     
- 
+   if (rev == str) {
+       return true
+    }
+    return false 
+}  
+
+
+function fn() {
+    // code
 }
+    if (false) {
+        // code
+       // return
+    }
 
 
-// take input
-let str1 = prompt('Enter a string: ');
 
 
- 
 console.log(isPalindrome(str1));
 
 
