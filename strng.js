@@ -1,61 +1,53 @@
-function validateform(){
-    const username = document.getElementById('username').value
-    const password = document.getElementById('password').value
-    const confirmPassword = document.getElementById('confirmPassword').value
 
-    if (password != 'confrimPassword'){
-        alert("The password does not match");
-        return;
+
+
+
+
+
+
+
+
+function isPalindrome(string) {
+
+//remove spaces
+ const cleanString = string.replace();
+
+    //let rev = string.split("").reverse().join("");
+    return cleanString === cleanString.split('').reverse().join('');
     }
 
-alert("Registration successful");
-document.getElementById('registrationform').onsubmit();
+//main prompt user input
+function checkPalindrome(){
+    let (isPalindrome) = true; //initailize looop
 }
-;
-
-
-
-
-
-
-
-// take input
-let str1 = prompt('Enter a string: ');
-
-
-function isPalindrome(str) {
-    
-
-
-
-    let rev = str.split("").reverse().join("");
- 
-
-
-    
-   if (rev == str) {
-       return true
+    while (string){
+        const input = prompt('string');{ //prompt input
     }
-    return false 
-}  
-
-
-function fn() {
-    // code
 }
-    if (false) {
-        // code
-       // return
-    }
+        
 
+        if(input !==null){ 
+        }
+            const isPal=isPalindrome(input); //check if palindrom
+            if (isPal) {
+                alert('the string is a palindrom');//notify if
+            }
+                else  {
+                    alert('the string is not a palindrom'); //notify if not
+                   
+                    if (!again) {
+                        continueLoop = false;
+                    
+                    }
+                    else {
+                        continueLoop = false;
 
-
-
-console.log(isPalindrome(str1));
-
-
-
-
+                    }
+                }
+                
+        
+isPalindrome();
 // call the function
-const value = isPalindrome(str1);
+checkPalindrome();
+
 
