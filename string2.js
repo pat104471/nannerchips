@@ -1,3 +1,5 @@
+/*Pat Schierman*/
+
 // function to combine
 function combineNames(){
     const firstName=
