@@ -3,7 +3,7 @@
 
 
 
-
+/*Pat Schierman*/
 
 
 function isPalindrome() {
