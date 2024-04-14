@@ -1,0 +1,20 @@
+
+  /*styles text*/
+  form {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 50px;
+      text-align: center;
+      color: gold;
+      text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+      }
+    
+  /*set image of background to dice*/
+    body {
+      background-image: url("string.png");
+      background-size: auto;
+      text-align: center;
+     }
+  
+ 
+  
+  
