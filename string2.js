@@ -16,47 +16,33 @@ console.log()
 
 
 //Show message
-function showSecretMessage(){
-    const fullName = document.getElementById('firstName + lastName').value.trim();
-    const zipCode = document.getElementById('zipCode').value.trim();
-   console.log()
-
-}
-
-document.getElementById("zipCode").addEventListener ("change"), function() {
-
-    let v = parseInt(this.value);
-    if (v < 0) this.value = 0;
-    if (v > 5) this.value = 5;
-
-
-    if (maxlegth) this.value = 0;
-    if (minlegth) this.value = 5;
-}
 
 
 
- alert('the string is a palindrom');{
+function checkInputs() {
+            
+    var firstName = document.getElementById('firstName').value;
+    var lastName = document.getElementById('lastName').value;
+    var zipCode = document.getElementById('zipCode').value;
 
-                }
-                    
-            if (isPalindrome (Palindrom)) {
-                alert("The string is a palindrome");
-            }
+  
+    var secretMessage = document.getElementById('secretMessage');
 
+
+    secretMessage.innerHTML = '';
+
+    
+    if (firstName.length <= 20 && lastName.length <= 20 && zipCode.length === 5) {
         
-            else  {
-                    alert('the string is not a palindrom'); //notify if not
-            }  
-                    if (!again) {
-                        continueLoop = false;
-                    
-                    }
-                    else {
-                        continueLoop = false;
+        secretMessage.innerHTML = 'This is the secret message!';
+    } else {
+        
+        alert('Names should not exceed 20 characters and zip code must be exactly 5 digits.');
+    }
+}
 
-                    }
-             console.log(isPalindrome)  
+
+             
 
 
   
