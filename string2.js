@@ -1,21 +1,6 @@
 /*Pat Schierman*/
 
-// function to combine
-function combineNames(){
-    const firstName=
-    document.getElementById('firstName').Value.trim();
-    const lastName=
-    document.getElementById('lastName').Value.trim();
-    return firstName + '' (lastName);{
-}
-}
-console.log()
 
-//function validateZipCode(zipCode){
-
-
-
-//Show message
 
 
 
@@ -41,7 +26,7 @@ function checkInputs() {
     }
 }
 
-
+console.log('firstName')
              
 
 
@@ -49,9 +34,6 @@ function checkInputs() {
 
 
 
-combineNames();
-showSecretMessage();
 
-function myFunction() {
-    alert("Congrats");
-}
+
+
