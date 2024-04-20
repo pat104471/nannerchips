@@ -1,0 +1,48 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Meme</title>
+<link 
+    rel="stylesheet" href="edp.css">
+</link>
+
+</head>
+
+<body>
+
+    <audio controls autoplay>
+    <source src="audio.wav" type="audio/wav">
+    </audio>
+
+<embed name="myMusic" src="Masgon.mp3" type="audio/midi" autostart="true" Hidden="true" loop="true"></embed> 
+
+
+<h1>Moving Meme</h1>
+    
+    <!-- Create the Start button -->
+    <button id="startBtn" onclick="startMoving()">Start</button>
+
+    <!-- Create the Stop button -->
+    <button id="stopBtn" onclick="stopMoving()">Stop</button>
+
+    <!--reset the image -->
+    <button id="resetBtn" onclick="resetMeme()">Reset</button>
+
+    <script src="edp.js"></script> <!-- Link to JavaScript -->
+    <div >
+    <img src="edp.jpg" id="meme" alt="test"></img>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
